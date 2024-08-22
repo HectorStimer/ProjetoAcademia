@@ -72,16 +72,23 @@ h1 {
 }
 
 .tabela {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
-    padding: 20px;
-    margin: 0 auto;
-    width: 80%;
+    padding: 1px 20px;
+    margin: 30px auto;
+    padding-bottom: 30px;
+    width: 50%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color: black;
+    margin-bottom:30px;
+}
+
+.tabela h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .tabela table {
@@ -109,13 +116,15 @@ h1 {
     width: 100%;
 }
 
-.Mapa h2 {
+.localizacao h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     font-size: 24px;
     margin-right: 20px; 
-    max-width: 45%;
+    
     line-height: 1.5;
+    text-align: center;
+
 }
 
 #mapa-iframe {
@@ -140,7 +149,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 20px; 
-    margin: 20px auto;
+    margin: 0 15px;
     width: 140px;
     transition: transform 0.3s ease;
 }
@@ -172,7 +181,7 @@ h1 {
 }
 
 .personal div p {
-    margin-right: 10px; 
+    
 }
 
 #titulo-personais {
@@ -185,3 +194,17 @@ h1 {
 
 }
 
+.personais {
+    display: flex;
+    justify-content: center;
+    gap: 0px
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+}
