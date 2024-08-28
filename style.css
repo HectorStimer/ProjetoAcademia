@@ -36,7 +36,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.94), rgb(0, 0, 0) 70%, black 100%);
+    background: linear-gradient(to bottom, black,rgb(0, 0, 0) 70%, cyan 100%);
     color: white;
 }
 
@@ -180,10 +180,6 @@ h1 {
     align-items: center;
 }
 
-.personal div p {
-    
-}
-
 #titulo-personais {
     font-family: 'Georgia', serif;
     font-size: 24px;
@@ -208,3 +204,5 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+ 
