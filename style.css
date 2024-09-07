@@ -8,7 +8,8 @@
 }
 
 .logo {
-    max-width: 100px; 
+    max-width: 100px;
+    
 }
 
 .menu{
@@ -36,7 +37,8 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: rgb(214, 214)
+    background-color: rgb(214, 214);
+    max-width: 1920px;
 }
 
 h1 {
@@ -51,7 +53,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
     border-radius: 16px;
     background-color: black;
 }
@@ -59,16 +61,26 @@ h1 {
     background-color: rgb(234, 234, 234);
     padding: 16px;
 }
-.imagem_promocao{
-    width: 00px;
+.promocao img{
+    max-width: 97vw;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+.promocao{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 #apresentacao {
     color: white;
-    font-size: 26px;
+    font-size: 25px;
     width: 700px;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify; 
+    text-align: justify;
+    justify-content: center;
 }
 
 #atleta, #atleta1 {
@@ -76,6 +88,7 @@ h1 {
     border: 5px;
     color: black;
     box-shadow: 0 0 20px;
+    border-radius: 16px;
 }
 
 .tabela {
@@ -211,5 +224,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
  
